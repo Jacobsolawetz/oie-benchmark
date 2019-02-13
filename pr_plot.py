@@ -13,6 +13,8 @@ import ntpath
 import numpy as np
 from glob import glob
 from docopt import docopt
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import logging
 logging.basicConfig(level = logging.INFO)
